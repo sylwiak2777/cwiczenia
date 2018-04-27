@@ -3,7 +3,7 @@ dolnaGranica = 10
 gornaGranica = 100
 #dolnaGranica = int(input("Dolny zakres to: "))
 #gornaGranica = int(input("Gorny zakres to: "))
-def liczbyPierwsze(dolnaGranica, gornaGranica)
+def liczbyPierwsze(dolnaGranica, gornaGranica):
 
     print("Liczby pierwsze od ",dolnaGranica," do",gornaGranica,"to:")
     for liczba in range(dolnaGranica,gornaGranica + 1):
@@ -19,6 +19,6 @@ def main():
     dolnaGranica =int  (input ('Dolny zakres liczb'))
     gornaGranica = int (input ('Gorny zakres liczb'))
 
-    print (liczbyPierwsze(10,100))
+    print (liczbyPierwsze(dolnaGranica, gornaGranica))
 
 main()
